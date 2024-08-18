@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-18T11:11:08 CDT" name="Default suite" finished-at="2024-08-18T11:11:29 CDT" duration-ms="20915">
+    <groups>
+    </groups>
+    <test started-at="2024-08-18T11:11:08 CDT" name="Default test" finished-at="2024-08-18T11:11:29 CDT" duration-ms="20915">
+      <class name="variousConcepts.LearnDataProvider">
+        <test-method is-config="true" signature="reportGenerator()[pri:0, instance:variousConcepts.LearnDataProvider@54422e18]" started-at="2024-08-18T11:11:08 CDT" name="reportGenerator" finished-at="2024-08-18T11:11:08 CDT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerator -->
+        <test-method is-config="true" signature="init()[pri:0, instance:variousConcepts.LearnDataProvider@54422e18]" started-at="2024-08-18T11:11:08 CDT" name="init" finished-at="2024-08-18T11:11:11 CDT" duration-ms="2884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:variousConcepts.LearnDataProvider@54422e18]" started-at="2024-08-18T11:11:11 CDT" name="loginTest" data-provider="loginData" finished-at="2024-08-18T11:11:20 CDT" duration-ms="8650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo@codefios.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:variousConcepts.LearnDataProvider@54422e18]" started-at="2024-08-18T11:11:20 CDT" name="init" finished-at="2024-08-18T11:11:22 CDT" duration-ms="2130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:variousConcepts.LearnDataProvider@54422e18]" started-at="2024-08-18T11:11:22 CDT" name="loginTest" data-provider="loginData" finished-at="2024-08-18T11:11:29 CDT" duration-ms="6712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testSelenium@techfios.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeReporter()[pri:0, instance:variousConcepts.LearnDataProvider@54422e18]" started-at="2024-08-18T11:11:29 CDT" name="closeReporter" finished-at="2024-08-18T11:11:29 CDT" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReporter -->
+      </class> <!-- variousConcepts.LearnDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
